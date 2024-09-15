@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BFD4E252C9705C300E25511 /* I am Ritch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Ritch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFD4E252C9705C300E25511 /* I am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFD4E282C9705C300E25511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFD4E2A2C9705C300E25511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BFD4E2C2C9705C300E25511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		3BFD4E1C2C9705C300E25511 = {
 			isa = PBXGroup;
 			children = (
-				3BFD4E272C9705C300E25511 /* I am Ritch */,
+				3BFD4E272C9705C300E25511 /* I am Rich */,
 				3BFD4E262C9705C300E25511 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		3BFD4E262C9705C300E25511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BFD4E252C9705C300E25511 /* I am Ritch.app */,
+				3BFD4E252C9705C300E25511 /* I am Rich.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BFD4E272C9705C300E25511 /* I am Ritch */ = {
+		3BFD4E272C9705C300E25511 /* I am Rich */ = {
 			isa = PBXGroup;
 			children = (
 				3BFD4E282C9705C300E25511 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				3BFD4E332C9705C500E25511 /* LaunchScreen.storyboard */,
 				3BFD4E362C9705C500E25511 /* Info.plist */,
 			);
-			path = "I am Ritch";
+			path = "I am Rich";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BFD4E242C9705C300E25511 /* I am Ritch */ = {
+		3BFD4E242C9705C300E25511 /* I am Rich */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BFD4E392C9705C500E25511 /* Build configuration list for PBXNativeTarget "I am Ritch" */;
+			buildConfigurationList = 3BFD4E392C9705C500E25511 /* Build configuration list for PBXNativeTarget "I am Rich" */;
 			buildPhases = (
 				3BFD4E212C9705C300E25511 /* Sources */,
 				3BFD4E222C9705C300E25511 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "I am Ritch";
+			name = "I am Rich";
 			productName = "I am Ritch";
-			productReference = 3BFD4E252C9705C300E25511 /* I am Ritch.app */;
+			productReference = 3BFD4E252C9705C300E25511 /* I am Rich.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BFD4E202C9705C300E25511 /* Build configuration list for PBXProject "I am Ritch" */;
+			buildConfigurationList = 3BFD4E202C9705C300E25511 /* Build configuration list for PBXProject "I am Rich" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BFD4E242C9705C300E25511 /* I am Ritch */,
+				3BFD4E242C9705C300E25511 /* I am Rich */,
 			);
 		};
 /* End PBXProject section */
@@ -294,22 +294,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR29L6XWT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "I am Ritch/Info.plist";
+				INFOPLIST_FILE = "I am Rich/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I am Rich";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.progx.ritch.I-am-Ritch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.progx.rich.I-am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,29 +327,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QR29L6XWT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "I am Ritch/Info.plist";
+				INFOPLIST_FILE = "I am Rich/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "I am Rich";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.progx.ritch.I-am-Ritch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.progx.rich.I-am-Rich";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BFD4E202C9705C300E25511 /* Build configuration list for PBXProject "I am Ritch" */ = {
+		3BFD4E202C9705C300E25511 /* Build configuration list for PBXProject "I am Rich" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BFD4E372C9705C500E25511 /* Debug */,
@@ -353,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BFD4E392C9705C500E25511 /* Build configuration list for PBXNativeTarget "I am Ritch" */ = {
+		3BFD4E392C9705C500E25511 /* Build configuration list for PBXNativeTarget "I am Rich" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BFD4E3A2C9705C500E25511 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  I am Ritch
+//  I am Rich
 //
 //  Created by Hussein Reda on 15/09/2024.
 //
